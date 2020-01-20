@@ -1,0 +1,4 @@
+#!/bin/bash
+datevao="$(date +%Y-%m-%d)"
+weekvao="$(date +%Y-week-%V)"
+cp -n /home/andy/.bash_history /home/andy/easy-backup-home-structure/z-archive-of-bash-history/bash_history_$weekvao_$datevao
